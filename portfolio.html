@@ -4,27 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic Portfolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>portfolio</title>
 </head>
 <body>
-<nav>
-    <h1>Emerson Doyah</h1>
-    <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+    <ul class="nav">
+        <li id="name"><h1 id="nameHeading">Emerson Doyah</h1></li>
+        <li><a class="linkBorder" href="index.html">About</a></li>
+        <li><a class="linkBorder" href="portfolio.html">Portfolio</a></li>
+        <li><a id="contactLink" href="contact.html">Contact</a></li>
     </ul>
-</nav>
-<div>
-    <h2>Portfolio</h2>
-    <hr>
-    <div><h3><a href="#">Project 1</a></h3></div>
-    <div><h3><a href="#">Project 2</a></h3></div>
-    <div><h3><a href="#">Project 3</a></h3></div>
-    <div><h3><a href="#">Project 4</a></h3></div>
-    <div><h3><a href="#">Project 5</a></h3></div>
-</div>
-
-    <footer>copyright 2018</footer>
+    <div class="container">
+        <h1 class="pageTitle">Portfolio</h1>
+        <hr>
+        <div id="project1" class="projectImage">
+            <h3 class="projectTitle"><a href="https://ed-webdev-emerzonic.c9users.io/" target="-blank">Sweet Lib</a></h3>
+        </div>
+        <div id="project2" class="projectImage">
+            <h3 class="projectTitle"><a href="https://dry-refuge-11012.herokuapp.com/" target="-blank">Straights and Curls</a></h3>
+        </div>
+        <div id="project3" class="projectImage">
+            <h3 class="projectTitle"><a href="https://emerzonic.github.io/HW-Wireframe/" target="-blank">Wireframe</a></h3>
+        </div>
+        <div id="project4" class="projectImage">
+            <h3 class="projectTitle"><a href="https://ed-webdev-emerzonic.c9users.io/" target="-blank">Soccerfind</a></h3>
+        </div>
+        <div id="project5" class="projectImage">
+            <h3 class="projectTitle"><a href="https://ed-webdev-emerzonic.c9users.io/" target="-blank">MusicWorld</a></h3>
+        </div>
+    </div>
+    <div class="footer">
+        copyright<strong>@</strong>2018
+    </div>
 </body>
 </html>
+
