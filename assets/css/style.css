@@ -1,9 +1,17 @@
+/* variable */
+:root {
+    /* theme color variable */
+    --main-theme-color:#4aaaa5; 
+    /* main headings font-family variable */
+    --heading-font-family:'Georgia', Times, Times New Roman, serif;
+}
 
 /******* general/shared contents ********/
 body{
     background-image: url("../images/spiration-light.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding-bottom: 70px;
+    min-width: 970px;
 }
 
  ul {
@@ -47,8 +55,8 @@ li a:hover {
 }
 
 #name{
-    background: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: var(--main-theme-color); 
+    font-family: var(--heading-font-family);
     font-size: 200%;
     font-weight: bold;
     margin-right:364px;
@@ -80,7 +88,7 @@ li a:hover {
     padding-top: 20px;
     margin-top: -50px;
     height: 50px;
-    border-top: 6px solid  #4aaaa5;
+    border-top: 6px solid  var(--main-theme-color); 
 }
 
 hr {
@@ -92,8 +100,8 @@ hr {
 }
 
 .pageTitle{
-    color:  #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:  var(--main-theme-color); 
+    font-family: var(--heading-font-family);
     padding: 30px;
     font-size: 200%;
     font-weight: bold;
@@ -149,7 +157,7 @@ hr {
 button{
     padding: 15px 40px;
     margin-bottom: 30px;
-    background:  #4aaaa5;
+    background:  var(--main-theme-color); 
     color: #ffffff;
     font-size: 125%;
     border: 0;
@@ -158,7 +166,7 @@ button{
 }
 
 button:hover{
-    background:  #3dccc5;
+    background:#45b9b4; 
     color: #e2dcdc;
 }
 
@@ -201,7 +209,7 @@ button:hover{
 .projectTitle{          
     width: 100%;
     height: 30px;
-    background: #4aaaa5;
+    background: var(--main-theme-color); 
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -211,7 +219,7 @@ button:hover{
 .projectTitle a{
     color: white;
     text-decoration: none;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: var(--heading-font-family);
     font-size: 150%;
 }
 
